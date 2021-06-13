@@ -1,0 +1,2909 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+    
+    
+<head>
+  <meta charset="UTF-8">
+  <title>りんりんサーチ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+
+
+<body>
+    
+    <div class="snslink">
+        
+        <span class="fa-stack fa-lg">
+           <i class="fa fa-circle fa-stack-2x circle-twitter"></i>
+           <a href="https://twitter.com/_suzukastella" target="_blank"><i class="fab fa-twitter fa-stack-1x fa-inverse"></a></i>
+        </span>
+        
+        <span class="fa-stack fa-lg">
+           <i class="fa fa-circle fa-stack-2x circle-youtube"></i>
+           <a href="https://www.youtube.com/channel/UChAOCCFuF2hto05Z68xp56A/featured" target="_blank"><i class="fab fa-youtube fa-stack-1x"></a></i>
+        </span>
+        
+        <span class="fa-stack fa-lg">
+           <i class="fa fa-circle fa-stack-2x circle-up"></i>
+           <a href="#"><i class="fas fas fa-chevron-up fa-stack-1x fa-inverse"></a></i>
+        </span>
+        
+    </div>
+    
+    
+    <div class ="favorite">
+       <input type="checkbox" class="favorite-checkbox" id="favorite" onclick="FavoriteCheck()" >
+       <label class="c-text-favorite" for="favorite-checkbox">お気に入り</label>
+    </div>
+    
+    
+    
+    <div class ="content">    
+        
+        
+        <div id="c-1-1">
+           <input type="checkbox" class="checkbox" id="1-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=tjryHpCfZEQ')">
+              <c-text-title>プラチナ</c-text-title><br>
+              <c-text-youtube>【歌ってみた】プラチナ/坂本真綾【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-1-2">
+           <input type='checkbox' class="checkbox" id="1-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=4655s')">
+              <c-text-title>プラチナ</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-2-1">
+           <input type='checkbox' class="checkbox" id="2-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=543s')">
+              <c-text-title>メランコリック</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+       <div id="c-2-2">
+           <input type='checkbox' class="checkbox" id="2-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=5096s')">
+              <c-text-title>メランコリック</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+       </div>
+        
+        <div id="c-3-1">
+           <input type="checkbox" class="checkbox" id="3-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=929s')">
+              <c-text-title>魂のルフラン</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-3-2">
+           <input type='checkbox' class="checkbox" id="3-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=3057s')">
+              <c-text-title>魂のルフラン</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-3-3">
+           <input type='checkbox' class="checkbox" id="3-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=5765s')">
+              <c-text-title>魂のルフラン</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+       <div id="c-3-4">
+           <input type='checkbox' class="checkbox" id="3-4" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=ppiKVPUBUJ4')">
+              <c-text-title>魂のルフラン</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「魂のルフラン」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+       </div>    
+        
+       <div id="c-4-1">
+           <input type="checkbox" class="checkbox" id="4-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=1657s')">
+              <c-text-title>ごはんはおかず</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+       </div>
+       
+        <div id="c-4-2">
+           <input type='checkbox' class="checkbox" id="4-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=lQvSd53VFVQ&t')">
+              <c-text-title>ごはんはおかず</c-text-title><br>
+              <c-text-youtube>【鈴どもインスピピ！】ごはんはおかず　歌ってみた【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-4-3">
+           <input type='checkbox' class="checkbox" id="4-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=5064s')">
+              <c-text-title>ごはんはおかず</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>                        
+        
+       <div id="c-5-1">
+           <input type="checkbox" class="checkbox" id="5-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=2340s')">
+              <c-text-title>FLASH</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+       </div>
+        
+       <div id="c-6-1">
+           <input type="checkbox" class="checkbox" id="6-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=3283s')">
+              <c-text-title>風になる</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+       </div>
+       
+        <div id="c-6-2">
+           <input type='checkbox' class="checkbox" id="6-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=6399s')">
+              <c-text-title>風になる</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+       <div id="c-7-1">
+           <input type="checkbox" class="checkbox" id="7-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Yf8PUSDsAWs&t=3956s')">
+              <c-text-title>僕たちはひとつの光</c-text-title><br>
+              <c-text-youtube>【初歌枠/ステLIVE】今夜は妖精の国へご招待！Let's sing a song!【Vtuber】</c-text-youtube>
+           </button>
+       </div>        
+        
+       <div id="c-8-1">
+           <input type="checkbox" class="checkbox" id="8-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=kuNCKFbMQ84')">
+              <c-text-title>花に亡霊</c-text-title><br>
+              <c-text-youtube>【歌ってみた】花に亡霊/ヨルシカ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+       </div>
+       
+        <div id="c-8-2">
+           <input type='checkbox' class="checkbox" id="8-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=4163s')">
+              <c-text-title>花に亡霊</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-8-3">
+           <input type='checkbox' class="checkbox" id="8-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=6259s')">
+              <c-text-title>花に亡霊</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-9-1">
+           <input type="checkbox" class="checkbox" id="9-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=461s')">
+              <c-text-title>私、アイドル宣言</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-9-2">
+           <input type='checkbox' class="checkbox" id="9-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=6760s')">
+              <c-text-title>私、アイドル宣言</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-9-3">
+           <input type='checkbox' class="checkbox" id="9-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=7004s')">
+              <c-text-title>私、アイドル宣言</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-10-1">
+           <input type="checkbox" class="checkbox" id="10-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=891s')">
+              <c-text-title>空色デイズ</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-10-2">
+           <input type='checkbox' class="checkbox" id="10-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=6299s')">
+              <c-text-title>空色デイズ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-11-1">
+           <input type="checkbox" class="checkbox" id="11-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=1410s')">
+              <c-text-title>星間飛行</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-11-2">
+           <input type='checkbox' class="checkbox" id="11-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=7054s')">
+              <c-text-title>星間飛行</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-11-3">
+           <input type='checkbox' class="checkbox" id="11-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=6625s')">
+              <c-text-title>星間飛行</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-12-1">
+           <input type="checkbox" class="checkbox" id="12-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=1988s')">
+              <c-text-title>からくりピエロ</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-13-1">
+           <input type="checkbox" class="checkbox" id="13-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=2836s')">
+              <c-text-title>桜ノ雨</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-13-2">
+           <input type='checkbox' class="checkbox" id="13-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=3785s')">
+              <c-text-title>桜ノ雨</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-14-1">
+           <input type="checkbox" class="checkbox" id="14-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4XLJHvXhwIU&t=3596s')">
+              <c-text-title>気まぐれロマンティック</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY1【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-14-2">
+           <input type='checkbox' class="checkbox" id="14-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=353s')">
+              <c-text-title>気まぐれロマンティック</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-14-3">
+           <input type='checkbox' class="checkbox" id="14-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=7208s')">
+              <c-text-title>気まぐれロマンティック</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-15-1">
+           <input type="checkbox" class="checkbox" id="15-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=537s')">
+              <c-text-title>プライド革命</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-15-2">
+           <input type='checkbox' class="checkbox" id="15-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=2514s')">
+              <c-text-title>プライド革命</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-16-1">
+           <input type="checkbox" class="checkbox" id="16-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=1318s')">
+              <c-text-title>ハロ/ハワユ</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-16-2">
+           <input type='checkbox' class="checkbox" id="16-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=6283s')">
+              <c-text-title>ハロ/ハワユ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-17-1">
+           <input type="checkbox" class="checkbox" id="17-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=2257s')">
+              <c-text-title>惑星ループ</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-17-2">
+           <input type='checkbox' class="checkbox" id="17-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=6133s')">
+              <c-text-title>惑星ループ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-18-1">
+           <input type="checkbox" class="checkbox" id="18-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=4850s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-18-2">
+           <input type='checkbox' class="checkbox" id="18-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=gUWLgYq3VgA&t=378s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【激レア歌枠回】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-18-3">
+           <input type="checkbox" class="checkbox" id="18-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=7937s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-18-4">
+           <input type='checkbox' class="checkbox" id="18-4" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=6561s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-18-5">
+           <input type="checkbox" class="checkbox" id="18-5" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=6565s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-18-6">
+           <input type='checkbox' class="checkbox" id="18-6" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=7490s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-18-7">
+           <input type='checkbox' class="checkbox" id="18-7" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=8120s')">
+              <c-text-title>ハム太郎とっとこうた</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-19-1">
+           <input type="checkbox" class="checkbox" id="19-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=5551s')">
+              <c-text-title>CHE.R.RY</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-19-2">
+           <input type="checkbox" class="checkbox" id="19-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=5918s')">
+              <c-text-title>CHE.R.RY</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>   
+        
+        <div id="c-20-1">
+           <input type="checkbox" class="checkbox" id="20-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=6109s')">
+              <c-text-title>旅立ちの日に</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-20-2">
+           <input type='checkbox' class="checkbox" id="20-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=6748s')">
+              <c-text-title>旅立ちの日に</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-21-1">
+           <input type="checkbox" class="checkbox" id="21-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Q7hgFmDoeqo&t=6738s')">
+              <c-text-title>Make you happy</c-text-title><br>
+              <c-text-youtube>【歌枠/ステLIVE】北半球スプリングバケーションLIVE(地球のね) DAY2【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-21-2">
+           <input type='checkbox' class="checkbox" id="21-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=7557s')">
+              <c-text-title>Make you happy</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-22-1">
+           <input type="checkbox" class="checkbox" id="22-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://youtu.be/sfIha3fcEes')">
+              <c-text-title>グッバイ宣言</c-text-title><br>
+              <c-text-youtube>【歌ってみた】グッバイ宣言/Chinozo【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-23-1">
+           <input type="checkbox" class="checkbox" id="23-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=380s')">
+              <c-text-title>God knows...</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-23-2">
+           <input type='checkbox' class="checkbox" id="23-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=6409s')">
+              <c-text-title>God knows...</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-24-1">
+           <input type="checkbox" class="checkbox" id="24-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=978s')">
+              <c-text-title>カブトムシ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-24-2">
+           <input type='checkbox' class="checkbox" id="24-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=5296s')">
+              <c-text-title>カブトムシ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-24-3">
+           <input type='checkbox' class="checkbox" id="24-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=6195s')">
+              <c-text-title>カブトムシ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-25-1">
+           <input type="checkbox" class="checkbox" id="25-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=1523s')">
+              <c-text-title>変わらないもの</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-25-2">
+           <input type='checkbox' class="checkbox" id="25-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=6640s')">
+              <c-text-title>変わらないもの</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-26-1">
+           <input type="checkbox" class="checkbox" id="26-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=1856s')">
+              <c-text-title>チカっとチカ千花っ♡</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-26-2">
+           <input type='checkbox' class="checkbox" id="26-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=7378s')">
+              <c-text-title>チカっとチカ千花っ♡</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-26-3">
+           <input type='checkbox' class="checkbox" id="26-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=7944s')">
+              <c-text-title>チカっとチカ千花っ♡</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-27-1">
+           <input type="checkbox" class="checkbox" id="27-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=2418s')">
+              <c-text-title>デイ・ドリーム・ビリーバー</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-28-1">
+           <input type="checkbox" class="checkbox" id="28-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=2971s')">
+              <c-text-title>Ghost of a smile</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-28-2">
+           <input type='checkbox' class="checkbox" id="28-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=6646s')">
+              <c-text-title>Ghost of a smile</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-29-1">
+           <input type="checkbox" class="checkbox" id="29-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=3529s')">
+              <c-text-title>一番の宝物</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-30-1">
+           <input type="checkbox" class="checkbox" id="30-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=4409s')">
+              <c-text-title>天使にふれたよ！</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-30-2">
+           <input type='checkbox' class="checkbox" id="30-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=5677s')">
+              <c-text-title>天使にふれたよ！</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-30-3">
+           <input type='checkbox' class="checkbox" id="30-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=7211s')">
+              <c-text-title>天使にふれたよ！</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-31-1">
+           <input type="checkbox" class="checkbox" id="31-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=5135s')">
+              <c-text-title>ORION</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-31-2">
+           <input type='checkbox' class="checkbox" id="31-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=962s')">
+              <c-text-title>ORION</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-32-1">
+           <input type="checkbox" class="checkbox" id="32-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=5881s')">
+              <c-text-title>コネクト</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-33-1">
+           <input type="checkbox" class="checkbox" id="33-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=6596s')">
+              <c-text-title>RIDE ON TIME</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-34-1">
+           <input type="checkbox" class="checkbox" id="34-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Hn1AyAUz2q0&t=7335s')">
+              <c-text-title>君の知らない物語</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！いっぱい歌うぞ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-34-2">
+           <input type='checkbox' class="checkbox" id="34-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=6826s')">
+              <c-text-title>君の知らない物語</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>              
+        
+        <div id="c-35-1">
+           <input type="checkbox" class="checkbox" id="35-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=599s')">
+              <c-text-title>Singing!</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-36-1">
+           <input type="checkbox" class="checkbox" id="36-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=1272s')">
+              <c-text-title>Listen!!</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-37-1">
+           <input type="checkbox" class="checkbox" id="37-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=1862s')">
+              <c-text-title>GO!GO!MANIAC</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-38-1">
+           <input type="checkbox" class="checkbox" id="38-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=2508s')">
+              <c-text-title>Don't say“lazy”</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-39-1">
+           <input type="checkbox" class="checkbox" id="39-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=3142s')">
+              <c-text-title>No,Thank You!</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-40-1">
+           <input type="checkbox" class="checkbox" id="40-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=3871s')">
+              <c-text-title>ぴゅあぴゅあはーと</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+       
+        <div id="c-40-2">
+           <input type='checkbox' class="checkbox" id="40-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=2688s')">
+              <c-text-title>ぴゅあぴゅあはーと</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-40-3">
+           <input type='checkbox' class="checkbox" id="40-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=nOmNCgXfuK4')">
+              <c-text-title>ぴゅあぴゅあはーと</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「ぴゅあぴゅあはーと」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-41-1">
+           <input type="checkbox" class="checkbox" id="41-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=4471s')">
+              <c-text-title>U&I</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-42-1">
+           <input type="checkbox" class="checkbox" id="42-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=xOUlOcA_fXo&t=6381s')">
+              <c-text-title>ふわふわ時間</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～けいおん！特集～で歌っちゃうよっ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-42-2">
+           <input type="checkbox" class="checkbox" id="42-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=6242s')">
+              <c-text-title>ふわふわ時間</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-42-3">
+           <input type="checkbox" class="checkbox" id="42-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=6621s')">
+              <c-text-title>ふわふわ時間</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-43-1">
+           <input type="checkbox" class="checkbox" id="43-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=sdIiWtNtt_Y')">
+              <c-text-title>ヴァンパイア</c-text-title><br>
+              <c-text-youtube>【歌ってみた】ヴァンパイア/DECO*27【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-44-1">
+           <input type="checkbox" class="checkbox" id="44-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=337s')">
+              <c-text-title>恋愛サーキュレーション</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-44-2">
+           <input type="checkbox" class="checkbox" id="44-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=6993s')">
+              <c-text-title>恋愛サーキュレーション</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-45-1">
+           <input type="checkbox" class="checkbox" id="45-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=909s')">
+              <c-text-title>なんでもないや</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-46-1">
+           <input type="checkbox" class="checkbox" id="46-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=1449s')">
+              <c-text-title>奏</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-46-2">
+           <input type="checkbox" class="checkbox" id="46-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=4294s')">
+              <c-text-title>奏</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-47-1">
+           <input type="checkbox" class="checkbox" id="47-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=2247s')">
+              <c-text-title>One more time,One more chance</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-48-1">
+           <input type="checkbox" class="checkbox" id="48-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=2663s')">
+              <c-text-title>ガーネット</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-48-2">
+           <input type="checkbox" class="checkbox" id="48-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=6590s')">
+              <c-text-title>ガーネット</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-49-1">
+           <input type="checkbox" class="checkbox" id="49-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=3207s')">
+              <c-text-title>竈門炭治郎のうた</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-50-1">
+           <input type="checkbox" class="checkbox" id="50-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=3722s')">
+              <c-text-title>君をのせて</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-50-2">
+           <input type="checkbox" class="checkbox" id="50-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=4255s')">
+              <c-text-title>君をのせて</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-51-1">
+           <input type="checkbox" class="checkbox" id="51-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=4072s')">
+              <c-text-title>only my railgun</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-52-1">
+           <input type="checkbox" class="checkbox" id="52-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=4672s')">
+              <c-text-title>Sincerely</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-52-2">
+           <input type="checkbox" class="checkbox" id="52-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=7138s')">
+              <c-text-title>Sincerely</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-52-3">
+           <input type="checkbox" class="checkbox" id="52-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=2qkpeSfn9aI')">
+              <c-text-title>Sincerely</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「Sincerely」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-53-1">
+           <input type="checkbox" class="checkbox" id="53-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=5105s')">
+              <c-text-title>マリーゴールド</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-54-1">
+           <input type="checkbox" class="checkbox" id="54-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=5536s')">
+              <c-text-title>アカシア</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-55-1">
+           <input type="checkbox" class="checkbox" id="55-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=6J7wtsJz0RU&t=5958s')">
+              <c-text-title>おジャ魔女カーニバル!!</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！盛り上がっていくぞー！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-55-2">
+           <input type="checkbox" class="checkbox" id="55-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=7549s')">
+              <c-text-title>おジャ魔女カーニバル!!</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-56-1">
+           <input type="checkbox" class="checkbox" id="56-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=589s')">
+              <c-text-title>崖の上のポニョ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-57-1">
+           <input type="checkbox" class="checkbox" id="57-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=1139s')">
+              <c-text-title>カントリーロード</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-57-2">
+           <input type="checkbox" class="checkbox" id="57-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=6507s')">
+              <c-text-title>カントリーロード</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-58-1">
+           <input type="checkbox" class="checkbox" id="58-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=1620s')">
+              <c-text-title>もののけ姫</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-59-1">
+           <input type="checkbox" class="checkbox" id="59-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=2104s')">
+              <c-text-title>さよならの夏 〜コクリコ坂から〜</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-60-1">
+           <input type="checkbox" class="checkbox" id="60-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=2935s')">
+              <c-text-title>テルーの唄</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-61-1">
+           <input type="checkbox" class="checkbox" id="61-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=3617s')">
+              <c-text-title>風の谷のナウシカ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-62-1">
+           <input type="checkbox" class="checkbox" id="62-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=4715s')">
+              <c-text-title>世界の約束</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-62-2">
+           <input type="checkbox" class="checkbox" id="62-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=5948s')">
+              <c-text-title>世界の約束</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-63-1">
+           <input type="checkbox" class="checkbox" id="63-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=5220s')">
+              <c-text-title>ルージュの伝言</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-64-1">
+           <input type="checkbox" class="checkbox" id="64-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=QLabP0sFz18&t=5620s')">
+              <c-text-title>いのちの名前</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10～ジブリ特集～で癒されたい【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-65-1">
+           <input type="checkbox" class="checkbox" id="65-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=389s')">
+              <c-text-title>残酷な天使のテーゼ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>              
+        
+        <div id="c-66-1">
+           <input type="checkbox" class="checkbox" id="66-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=841s')">
+              <c-text-title>かくしん的☆めたまるふぉ〜ぜっ！</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-67-1">
+           <input type="checkbox" class="checkbox" id="67-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=1167s')">
+              <c-text-title>Just Be Friends</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-68-1">
+           <input type="checkbox" class="checkbox" id="68-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=1760s')">
+              <c-text-title>ハナミズキ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-68-2">
+           <input type="checkbox" class="checkbox" id="68-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=6256s')">
+              <c-text-title>ハナミズキ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-69-1">
+           <input type="checkbox" class="checkbox" id="69-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=2406s')">
+              <c-text-title>ひこうき雲</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-70-1">
+           <input type="checkbox" class="checkbox" id="70-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=2886s')">
+              <c-text-title>Everything</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-70-2">
+           <input type="checkbox" class="checkbox" id="70-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=6143s')">
+              <c-text-title>Everything</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-71-1">
+           <input type="checkbox" class="checkbox" id="71-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=3518s')">
+              <c-text-title>炎</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-71-2">
+           <input type="checkbox" class="checkbox" id="71-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=3274s')">
+              <c-text-title>炎</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-71-3">
+           <input type="checkbox" class="checkbox" id="71-3" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=5085s')">
+              <c-text-title>炎</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-71-4">
+           <input type="checkbox" class="checkbox" id="71-4" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=7411s')">
+              <c-text-title>炎</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-72-1">
+           <input type="checkbox" class="checkbox" id="72-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=4002s')">
+              <c-text-title>檄！帝国華撃団</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-72-2">
+           <input type="checkbox" class="checkbox" id="72-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=aBDiu-luOZg')">
+              <c-text-title>檄！帝国華撃団</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「檄！帝国華撃団」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-73-1">
+           <input type="checkbox" class="checkbox" id="73-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=4463s')">
+              <c-text-title>雪の華</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-74-1">
+           <input type="checkbox" class="checkbox" id="74-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=5073s')">
+              <c-text-title>StaRt</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-74-2">
+           <input type="checkbox" class="checkbox" id="74-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=6682s')">
+              <c-text-title>StaRt</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-75-1">
+           <input type="checkbox" class="checkbox" id="75-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=5409s')">
+              <c-text-title>光るなら</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-75-2">
+           <input type="checkbox" class="checkbox" id="75-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=6697s')">
+              <c-text-title>光るなら</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>     
+        
+        <div id="c-76-1">
+           <input type="checkbox" class="checkbox" id="76-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=DI0n69fc2_0&t=5904s')">
+              <c-text-title>白金ディスコ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！Let's sing together！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-77-1">
+           <input type="checkbox" class="checkbox" id="77-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=608s')">
+              <c-text-title>桃色片想い</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-78-1">
+           <input type="checkbox" class="checkbox" id="78-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=1173s')">
+              <c-text-title>桜の木になろう</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-79-1">
+           <input type="checkbox" class="checkbox" id="79-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=1888s')">
+              <c-text-title>ハルジオン</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-79-2">
+           <input type="checkbox" class="checkbox" id="79-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=6761s')">
+              <c-text-title>ハルジオン</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-80-1">
+           <input type="checkbox" class="checkbox" id="80-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=2374s')">
+              <c-text-title>遥か</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-80-2">
+           <input type="checkbox" class="checkbox" id="80-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=5853s')">
+              <c-text-title>遥か</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-81-1">
+           <input type="checkbox" class="checkbox" id="81-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=3070s')">
+              <c-text-title>YELL</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-82-1">
+           <input type="checkbox" class="checkbox" id="82-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=4050s')">
+              <c-text-title>Best Friend</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-83-1">
+           <input type="checkbox" class="checkbox" id="83-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=4747s')">
+              <c-text-title>春よ、来い</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-83-2">
+           <input type="checkbox" class="checkbox" id="83-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=7017s')">
+              <c-text-title>春よ、来い</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-84-1">
+           <input type="checkbox" class="checkbox" id="84-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=5276s')">
+              <c-text-title>さくらんぼ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-85-1">
+           <input type="checkbox" class="checkbox" id="85-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=5693s')">
+              <c-text-title>桜</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-86-1">
+           <input type="checkbox" class="checkbox" id="86-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=egzjUOFx-oU&t=6321s')">
+              <c-text-title>チェリー</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～春うた特集～で春うらら【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-86-2">
+           <input type="checkbox" class="checkbox" id="86-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=7045s')">
+              <c-text-title>チェリー</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-87-1">
+           <input type="checkbox" class="checkbox" id="87-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://youtu.be/JhgMOvDIZwE')">
+              <c-text-title>群青</c-text-title><br>
+              <c-text-youtube>【歌ってみた】群青/YOASOBI【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-87-2">
+           <input type="checkbox" class="checkbox" id="87-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=6363s')">
+              <c-text-title>群青</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-88-1">
+           <input type="checkbox" class="checkbox" id="88-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=870s')">
+              <c-text-title>愛にできることはまだあるかい</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-89-1">
+           <input type="checkbox" class="checkbox" id="89-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=1496s')">
+              <c-text-title>スパークル</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-90-1">
+           <input type="checkbox" class="checkbox" id="90-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=2105s')">
+              <c-text-title>Seacret base ～君がくれたもの～</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-91-1">
+           <input type="checkbox" class="checkbox" id="91-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=3242s')">
+              <c-text-title>あんなに一緒だったのに</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-92-1">
+           <input type="checkbox" class="checkbox" id="92-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=4420s')">
+              <c-text-title>ダイアモンドクレバス</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-93-1">
+           <input type="checkbox" class="checkbox" id="93-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=4949s')">
+              <c-text-title>瞬間センチメンタル</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-94-1">
+           <input type="checkbox" class="checkbox" id="94-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=5780s')">
+              <c-text-title>名前のない怪物</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-95-1">
+           <input type="checkbox" class="checkbox" id="95-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=4bwUiq2QUFU&t=6376s')">
+              <c-text-title>ライオン</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！sing a lot of songs！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-96-1">
+           <input type="checkbox" class="checkbox" id="96-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=608s')">
+              <c-text-title>フレンズ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-97-1">
+           <input type="checkbox" class="checkbox" id="97-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=1085s')">
+              <c-text-title>俺ら東京さ行ぐだ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-98-1">
+           <input type="checkbox" class="checkbox" id="98-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=1490s')">
+              <c-text-title>赤いスイートピー</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-99-1">
+           <input type="checkbox" class="checkbox" id="99-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=1968s')">
+              <c-text-title>UFO</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-100-1">
+           <input type="checkbox" class="checkbox" id="100-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=2459s')">
+              <c-text-title>川の流れのように</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-101-1">
+           <input type="checkbox" class="checkbox" id="101-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=3189s')">
+              <c-text-title>瑠璃色の地球</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-102-1">
+           <input type="checkbox" class="checkbox" id="102-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=3632s')">
+              <c-text-title>年下の男の子</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-103-1">
+           <input type="checkbox" class="checkbox" id="103-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=4051s')">
+              <c-text-title>さよならの向う側</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-104-1">
+           <input type="checkbox" class="checkbox" id="104-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=4799s')">
+              <c-text-title>木綿のハンカチーフ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-105-1">
+           <input type="checkbox" class="checkbox" id="105-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=q_fR-BhPXYA&t=5255s')">
+              <c-text-title>M</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～昭和歌謡曲特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-105-2">
+           <input type="checkbox" class="checkbox" id="105-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=6636s')">
+              <c-text-title>M</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-106-1">
+           <input type="checkbox" class="checkbox" id="106-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=cttgklskPkk')">
+              <c-text-title>乱数調整のリバースシンデレラ</c-text-title><br>
+              <c-text-youtube>【歌ってみた】乱数調整のリバースシンデレラ/彩宮すう(CV:竹達彩奈)【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-107-1">
+           <input type="checkbox" class="checkbox" id="107-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=375s')">
+              <c-text-title>世界は恋に落ちている</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-108-1">
+           <input type="checkbox" class="checkbox" id="108-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=992s')">
+              <c-text-title>One Last Kiss</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-109-1">
+           <input type="checkbox" class="checkbox" id="109-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=1526s')">
+              <c-text-title>Lemon</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-110-1">
+           <input type="checkbox" class="checkbox" id="110-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=2119s')">
+              <c-text-title>A Whole New World</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-111-1">
+           <input type="checkbox" class="checkbox" id="111-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=2945s')">
+              <c-text-title>ただ君に晴れ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-112-1">
+           <input type="checkbox" class="checkbox" id="112-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=3455s')">
+              <c-text-title>だから僕は音楽を辞めた</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-113-1">
+           <input type="checkbox" class="checkbox" id="113-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=3889s')">
+              <c-text-title>Butter-Fly</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-114-1">
+           <input type="checkbox" class="checkbox" id="114-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=4773s')">
+              <c-text-title>さよならメモリーズ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-115-1">
+           <input type="checkbox" class="checkbox" id="115-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=5381s')">
+              <c-text-title>瞳をとじて</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-115-2">
+           <input type="checkbox" class="checkbox" id="115-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=6738s')">
+              <c-text-title>瞳をとじて</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-116-1">
+           <input type="checkbox" class="checkbox" id="116-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=WPtkAbjTpco&t=5854s')">
+              <c-text-title>ムーンライト伝説</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！lalala～♪！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-117-1">
+           <input type="checkbox" class="checkbox" id="117-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=480s')">
+              <c-text-title>シュガーソングとビターステップ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-118-1">
+           <input type="checkbox" class="checkbox" id="118-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=1560s')">
+              <c-text-title>LA・LA・LA LOVE SONG</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-119-1">
+           <input type="checkbox" class="checkbox" id="119-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=2227s')">
+              <c-text-title>千本桜</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-120-1">
+           <input type="checkbox" class="checkbox" id="120-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=2831s')">
+              <c-text-title>月光</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-120-2">
+           <input type="checkbox" class="checkbox" id="120-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=5807s')">
+              <c-text-title>月光</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-121-1">
+           <input type="checkbox" class="checkbox" id="121-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=3310s')">
+              <c-text-title>アゲハ蝶</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-122-1">
+           <input type="checkbox" class="checkbox" id="122-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=3899s')">
+              <c-text-title>紅蓮華</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-123-1">
+           <input type="checkbox" class="checkbox" id="123-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=4547s')">
+              <c-text-title>Beauty and the Beast</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-124-1">
+           <input type="checkbox" class="checkbox" id="124-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=4995s')">
+              <c-text-title>タッチ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-125-1">
+           <input type="checkbox" class="checkbox" id="125-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=5488s')">
+              <c-text-title>糸</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-126-1">
+           <input type="checkbox" class="checkbox" id="126-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=D2MiHzG2MAk&t=6371s')">
+              <c-text-title>夏祭り</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！GW2回目！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-127-1">
+           <input type="checkbox" class="checkbox" id="127-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=358s')">
+              <c-text-title>Rollng star</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-128-1">
+           <input type="checkbox" class="checkbox" id="128-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=801s')">
+              <c-text-title>未来予想図II</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-129-1">
+           <input type="checkbox" class="checkbox" id="129-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=1328s')">
+              <c-text-title>涙そうそう</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-130-1">
+           <input type="checkbox" class="checkbox" id="130-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=1782s')">
+              <c-text-title>愛をこめて花束を</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-131-1">
+           <input type="checkbox" class="checkbox" id="131-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=2266s')">
+              <c-text-title>ピースサイン</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-132-1">
+           <input type="checkbox" class="checkbox" id="132-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=2826s')">
+              <c-text-title>輝く未来</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-133-1">
+           <input type="checkbox" class="checkbox" id="133-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=3747s')">
+              <c-text-title>香水</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-134-1">
+           <input type="checkbox" class="checkbox" id="134-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=4252s')">
+              <c-text-title>カタオモイ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-135-1">
+           <input type="checkbox" class="checkbox" id="135-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=4641s')">
+              <c-text-title>蝶々結び</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-136-1">
+           <input type="checkbox" class="checkbox" id="136-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=FYEFVCE_QuY&t=5460s')">
+              <c-text-title>君に届け</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！熱い夜になっちゃうよ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-137-1">
+           <input type="checkbox" class="checkbox" id="137-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=560s')">
+              <c-text-title>線路は続くよどこまでも</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-138-1">
+           <input type="checkbox" class="checkbox" id="138-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=988s')">
+              <c-text-title>南の島のハメハメハ大王</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-139-1">
+           <input type="checkbox" class="checkbox" id="139-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=1367s')">
+              <c-text-title>グリーングリーン</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-140-1">
+           <input type="checkbox" class="checkbox" id="140-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=1693s')">
+              <c-text-title>おしりかじり虫</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-141-1">
+           <input type="checkbox" class="checkbox" id="141-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=2111s')">
+              <c-text-title>ぼくはくま</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-142-1">
+           <input type="checkbox" class="checkbox" id="142-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=2584s')">
+              <c-text-title>パプリカ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-143-1">
+           <input type="checkbox" class="checkbox" id="143-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=3604s')">
+              <c-text-title>野に咲く花のように</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-144-1">
+           <input type="checkbox" class="checkbox" id="144-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=3962s')">
+              <c-text-title>大きな古時計</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-144-2">
+           <input type="checkbox" class="checkbox" id="144-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=6219s')">
+              <c-text-title>大きな古時計</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-145-1">
+           <input type="checkbox" class="checkbox" id="145-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=4302s')">
+              <c-text-title>手のひらを太陽に</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-146-1">
+           <input type="checkbox" class="checkbox" id="146-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Pajc6XgY_1U&t=4591s')">
+              <c-text-title>WAになっておどろう</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～みんなのうた特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-146-2">
+           <input type="checkbox" class="checkbox" id="146-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=7093s')">
+              <c-text-title>WAになっておどろう</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-147-1">
+           <input type="checkbox" class="checkbox" id="147-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=340s')">
+              <c-text-title>そばかす</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-148-1">
+           <input type="checkbox" class="checkbox" id="148-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=840s')">
+              <c-text-title>夜空ノムコウ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-149-1">
+           <input type="checkbox" class="checkbox" id="149-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=1259s')">
+              <c-text-title>いーあるふぁんくらぶ</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-150-1">
+           <input type="checkbox" class="checkbox" id="150-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=1699s')">
+              <c-text-title>ひまわりの約束</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-151-1">
+           <input type="checkbox" class="checkbox" id="151-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=2265s')">
+              <c-text-title>Diamonds</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-152-1">
+           <input type="checkbox" class="checkbox" id="152-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=2773s')">
+              <c-text-title>SUN</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-153-1">
+           <input type="checkbox" class="checkbox" id="153-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=3233s')">
+              <c-text-title>恋愛裁判</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-154-1">
+           <input type="checkbox" class="checkbox" id="154-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=3650s')">
+              <c-text-title>Story</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-155-1">
+           <input type="checkbox" class="checkbox" id="155-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=4199s')">
+              <c-text-title>小さな恋のうた</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-155-2">
+           <input type="checkbox" class="checkbox" id="155-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=6262s')">
+              <c-text-title>小さな恋のうた</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-156-1">
+           <input type="checkbox" class="checkbox" id="156-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=4702s')">
+              <c-text-title>Pretender</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-156-2">
+           <input type="checkbox" class="checkbox" id="156-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=_Gc_Nd0YRWc')">
+              <c-text-title>Pretender</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「Pretender」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-157-1">
+           <input type="checkbox" class="checkbox" id="157-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=5488s')">
+              <c-text-title>お願いマッスル</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-157-2">
+           <input type="checkbox" class="checkbox" id="157-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=7082s')">
+              <c-text-title>お願いマッスル</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-158-1">
+           <input type="checkbox" class="checkbox" id="158-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=vOpwT7As2D8&t=6150s')">
+              <c-text-title>恋</c-text-title><br>
+              <c-text-youtube>【歌枠】りんりんヒットスタジオ！！週末と言えばステLIVE！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-159-1">
+           <input type="checkbox" class="checkbox" id="159-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=677s')">
+              <c-text-title>Happiness</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-160-1">
+           <input type="checkbox" class="checkbox" id="160-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=1145s')">
+              <c-text-title>TOMORROW</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>   
+        
+        <div id="c-161-1">
+           <input type="checkbox" class="checkbox" id="161-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=1617s')">
+              <c-text-title>ガッツだぜ！！</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-162-1">
+           <input type="checkbox" class="checkbox" id="162-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=2039s')">
+              <c-text-title>ファイト！</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-163-1">
+           <input type="checkbox" class="checkbox" id="163-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=2650s')">
+              <c-text-title>栄光の架橋</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-164-1">
+           <input type="checkbox" class="checkbox" id="164-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=3384s')">
+              <c-text-title>手紙 〜拝啓 十五の君へ〜</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-165-1">
+           <input type="checkbox" class="checkbox" id="165-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=4075s')">
+              <c-text-title>にじいろ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-166-1">
+           <input type="checkbox" class="checkbox" id="166-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=4602s')">
+              <c-text-title>ハピネス</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-167-1">
+           <input type="checkbox" class="checkbox" id="167-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=5080s')">
+              <c-text-title>負けないで</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-168-1">
+           <input type="checkbox" class="checkbox" id="168-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=piSNHx6VtnQ&t=5650s')">
+              <c-text-title>世界に一つだけの花</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-169-1">
+           <input type="checkbox" class="checkbox" id="169-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=3p8ctr5t13I')">
+              <c-text-title>恋するフォーチュンクッキー</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～応援ソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-170-1">
+           <input type="checkbox" class="checkbox" id="170-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=491s')">
+              <c-text-title>ブルーバード</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-171-1">
+           <input type="checkbox" class="checkbox" id="171-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=889s')">
+              <c-text-title>優しさの理由</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-172-1">
+           <input type="checkbox" class="checkbox" id="172-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=1348s')">
+              <c-text-title>LAST STARDUST</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-173-1">
+           <input type="checkbox" class="checkbox" id="173-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=1940s')">
+              <c-text-title>ハッピーサマーウェディング</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-174-1">
+           <input type="checkbox" class="checkbox" id="174-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=2413s')">
+              <c-text-title>staple stable</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-175-1">
+           <input type="checkbox" class="checkbox" id="175-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=2891s')">
+              <c-text-title>深海少女</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-176-1">
+           <input type="checkbox" class="checkbox" id="176-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=3374s')">
+              <c-text-title>もってけ！セーラーふく</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+       
+        <div id="c-176-2">
+           <input type="checkbox" class="checkbox" id="176-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=7145s')">
+              <c-text-title>もってけ！セーラーふく</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-177-1">
+           <input type="checkbox" class="checkbox" id="177-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=4031s')">
+              <c-text-title>グランドエスケープ</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-178-1">
+           <input type="checkbox" class="checkbox" id="178-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=4537s')">
+              <c-text-title>inside you</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-179-1">
+           <input type="checkbox" class="checkbox" id="179-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=5449s')">
+              <c-text-title>創聖のアクエリオン</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-179-2">
+           <input type="checkbox" class="checkbox" id="179-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=6087s')">
+              <c-text-title>創聖のアクエリオン</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>   
+        
+        <div id="c-180-1">
+           <input type="checkbox" class="checkbox" id="180-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=XZnwPiEDGM0&t=5913s')">
+              <c-text-title>My Drearest</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン多め！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-181-1">
+           <input type="checkbox" class="checkbox" id="181-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=579s')">
+              <c-text-title>Jupiter</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-182-1">
+           <input type="checkbox" class="checkbox" id="182-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=1197s')">
+              <c-text-title>花束を君に</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-182-2">
+           <input type="checkbox" class="checkbox" id="182-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=6455s')">
+              <c-text-title>花束を君に</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-183-1">
+           <input type="checkbox" class="checkbox" id="183-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=1673s')">
+              <c-text-title>TT -Japanese ver.-</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-184-1">
+           <input type="checkbox" class="checkbox" id="184-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=2141s')">
+              <c-text-title>I LOVE YOU</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-185-1">
+           <input type="checkbox" class="checkbox" id="185-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=2590s')">
+              <c-text-title>プラネタリウム</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-186-1">
+           <input type="checkbox" class="checkbox" id="186-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=3266s')">
+              <c-text-title>One Love</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-187-1">
+           <input type="checkbox" class="checkbox" id="187-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=3790s')">
+              <c-text-title>丸の内サディスティック</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-187-2">
+           <input type="checkbox" class="checkbox" id="187-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=6788s')">
+              <c-text-title>丸の内サディスティック</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>
+        
+        <div id="c-188-1">
+           <input type="checkbox" class="checkbox" id="188-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=4182s')">
+              <c-text-title>I LOVE...</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
+        
+        <div id="c-189-1">
+           <input type="checkbox" class="checkbox" id="189-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=4736s')">
+              <c-text-title>Darling</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-190-1">
+           <input type="checkbox" class="checkbox" id="190-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=UG4-RI3u6KM&t=5418s')">
+              <c-text-title>First Love</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-191-1">
+           <input type="checkbox" class="checkbox" id="191-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=421s')">
+              <c-text-title>again</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-192-1">
+           <input type="checkbox" class="checkbox" id="192-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=888s')">
+              <c-text-title>Beautiful World</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>    
+        
+        <div id="c-192-2">
+           <input type="checkbox" class="checkbox" id="192-2" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=6724s')">
+              <c-text-title>Beautiful World</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-193-1">
+           <input type="checkbox" class="checkbox" id="193-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=1446s')">
+              <c-text-title>アジアの純真</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-194-1">
+           <input type="checkbox" class="checkbox" id="194-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=1935s')">
+              <c-text-title>トライアングラー</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-195-1">
+           <input type="checkbox" class="checkbox" id="195-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=2479s')">
+              <c-text-title>crossing field</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-196-1">
+           <input type="checkbox" class="checkbox" id="196-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=3092s')">
+              <c-text-title>from Y to Y</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-197-1">
+           <input type="checkbox" class="checkbox" id="197-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=3661s')">
+              <c-text-title>Brave Shine</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-198-1">
+           <input type="checkbox" class="checkbox" id="198-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=4076s')">
+              <c-text-title>Catch the Moment</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-199-1">
+           <input type="checkbox" class="checkbox" id="199-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=4605s')">
+              <c-text-title>Ref:rain</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-200-1">
+           <input type="checkbox" class="checkbox" id="200-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=5052s')">
+              <c-text-title>海色</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-201-1">
+           <input type="checkbox" class="checkbox" id="201-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=5488s')">
+              <c-text-title>ハレ晴レユカイ</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-202-1">
+           <input type="checkbox" class="checkbox" id="202-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-Qds5fGeJjc&t=5862s')">
+              <c-text-title>アイのシナリオ</c-text-title><br>
+              <c-text-youtube>【歌枠】平成アニソン！りんりんヒットスタジオ！【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-203-1">
+           <input type="checkbox" class="checkbox" id="203-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=616s')">
+              <c-text-title>青と夏</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-204-1">
+           <input type="checkbox" class="checkbox" id="204-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=1100s')">
+              <c-text-title>アイネクライネ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-205-1">
+           <input type="checkbox" class="checkbox" id="205-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=1628s')">
+              <c-text-title>夜に駆ける</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-206-1">
+           <input type="checkbox" class="checkbox" id="206-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=2130s')">
+              <c-text-title>海の声</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>              
+        
+        <div id="c-207-1">
+           <input type="checkbox" class="checkbox" id="207-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=2613s')">
+              <c-text-title>風になりたい</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-208-1">
+           <input type="checkbox" class="checkbox" id="208-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=3227s')">
+              <c-text-title>恋音と雨空</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-209-1">
+           <input type="checkbox" class="checkbox" id="209-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=3793s')">
+              <c-text-title>ワタリドリ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-210-1">
+           <input type="checkbox" class="checkbox" id="210-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=4343s')">
+              <c-text-title>Love so sweet</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-211-1">
+           <input type="checkbox" class="checkbox" id="211-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=5037s')">
+              <c-text-title>前前前世</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-212-1">
+           <input type="checkbox" class="checkbox" id="212-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=U1KFHdbSJww&t=5498s')">
+              <c-text-title>天体観測</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドライブソング特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-213-1">
+           <input type="checkbox" class="checkbox" id="213-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=395s')">
+              <c-text-title>ロミオとシンデレラ</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-214-1">
+           <input type="checkbox" class="checkbox" id="214-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=853s')">
+              <c-text-title>RE:I AM</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-215-1">
+           <input type="checkbox" class="checkbox" id="215-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=1454s')">
+              <c-text-title>ANIMA</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-216-1">
+           <input type="checkbox" class="checkbox" id="216-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=2029s')">
+              <c-text-title>インフェルノ</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-217-1">
+           <input type="checkbox" class="checkbox" id="217-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=2524s')">
+              <c-text-title>天ノ弱</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-218-1">
+           <input type="checkbox" class="checkbox" id="218-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=2943s')">
+              <c-text-title>怪物</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-219-1">
+           <input type="checkbox" class="checkbox" id="219-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=3365s')">
+              <c-text-title>oath sign</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-220-1">
+           <input type="checkbox" class="checkbox" id="220-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=3867s')">
+              <c-text-title>シルエット</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>            
+        
+        <div id="c-221-1">
+           <input type="checkbox" class="checkbox" id="221-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=4370s')">
+              <c-text-title>渡月橋 ～君 想ふ～</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-222-1">
+           <input type="checkbox" class="checkbox" id="222-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=4819s')">
+              <c-text-title>YUME 日和</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-223-1">
+           <input type="checkbox" class="checkbox" id="223-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=5423s')">
+              <c-text-title>Snow halation</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+        
+        <div id="c-224-1">
+           <input type="checkbox" class="checkbox" id="224-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=AP8VQmIop3o&t=5972s')">
+              <c-text-title>めざせポケモンマスター</c-text-title><br>
+              <c-text-youtube>【歌枠】アニソン・ボカロ！歌うぞぉぉおお！りんりんヒットスタジオ【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>  
+         
+        <div id="c-225-1">
+           <input type="checkbox" class="checkbox" id="225-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=625s')">
+              <c-text-title>NO MORE CRY</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-226-1">
+           <input type="checkbox" class="checkbox" id="226-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=1150s')">
+              <c-text-title>潮騒のメモリー</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-227-1">
+           <input type="checkbox" class="checkbox" id="227-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=1701s')">
+              <c-text-title>やさしくなりたい</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-228-1">
+           <input type="checkbox" class="checkbox" id="228-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=2284s')">
+              <c-text-title>粉雪</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-229-1">
+           <input type="checkbox" class="checkbox" id="229-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=2970s')">
+              <c-text-title>ノーダウト</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>             
+        
+        <div id="c-230-1">
+           <input type="checkbox" class="checkbox" id="230-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=3414s')">
+              <c-text-title>ヒカリへ</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        <div id="c-231-1">
+           <input type="checkbox" class="checkbox" id="231-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=3959s')">
+              <c-text-title>366日</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div> 
+        
+        <div id="c-232-1">
+           <input type="checkbox" class="checkbox" id="232-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=4568s')">
+              <c-text-title>KISSして</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-233-1">
+           <input type="checkbox" class="checkbox" id="233-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=4968s')">
+              <c-text-title>明日への手紙</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>           
+        
+        <div id="c-234-1">
+           <input type="checkbox" class="checkbox" id="234-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=-XSi1SkQAvo&t=5618s')">
+              <c-text-title>PEACH</c-text-title><br>
+              <c-text-youtube>【歌枠】ザ・ステラ10 ～ドラマ主題歌 特集～【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>         
+        
+        <div id="c-235-1">
+           <input type="checkbox" class="checkbox" id="235-1" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=8ynr5zuUcJ0')">
+              <c-text-title>KING</c-text-title><br>
+              <c-text-youtube>【歌ってみた】KING / Kanaria【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>          
+        
+        
+        
+    </div>
+    
+
+
+    
+    
+    
+   <script type="text/javascript">
+       
+var list = new Array(
+"1-1","1-2",
+"2-1","2-2",
+"3-1","3-2","3-3","3-4",
+"4-1","4-2","4-3",
+"5-1",
+"6-1","6-2",
+"7-1",
+"8-1","8-2","8-3",
+"9-1","9-2","9-3",
+"10-1","10-2",
+"11-1","11-2","11-3",
+"12-1",
+"13-1","13-2",
+"14-1","14-2","14-3",
+"15-1","15-2",
+"16-1","16-2",
+"17-1","17-2",
+"18-1","18-2","18-3","18-4","18-5","18-6","18-7",
+"19-1","19-2",
+"20-1","20-2",
+"21-1","21-2",
+"22-1",
+"23-1","23-2",
+"24-1","24-2","24-3",
+"25-1","25-2",
+"26-1","26-2","26-3",
+"27-1",
+"28-1","28-2",
+"29-1",
+"30-1","30-2","30-3",
+"31-1","31-2",
+"32-1",
+"33-1",
+"34-1","34-2",
+"35-1",
+"36-1",
+"37-1",
+"38-1",
+"39-1",
+"40-1","40-2","40-3",
+"41-1",
+"42-1","42-2","42-3",
+"43-1",
+"44-1","44-2",
+"45-1",
+"46-1","46-2",
+"47-1",
+"48-1","48-2",
+"49-1",
+"50-1","50-2",
+"51-1",
+"52-1","52-2","52-3",
+"53-1",
+"54-1",
+"55-1","55-2",
+"56-1",
+"57-1","57-2",
+"58-1",
+"59-1",
+"60-1",
+"61-1",
+"62-1","62-2",
+"63-1",
+"64-1",
+"65-1",
+"66-1",
+"67-1",
+"68-1","68-2",
+"69-1",
+"70-1","70-2",
+"71-1","71-2","71-3","71-4",
+"72-1","72-2",
+"73-1",
+"74-1","74-2",
+"75-1","75-2",
+"76-1",
+"77-1",
+"78-1",
+"79-1","79-2",
+"80-1","80-2",
+"81-1",
+"82-1",
+"83-1","83-2",
+"84-1",
+"85-1",
+"86-1","86-2",
+"87-1","87-2",
+"88-1",
+"89-1",
+"90-1",
+"91-1",
+"92-1",
+"93-1",
+"94-1",
+"95-1",
+"96-1",
+"97-1",
+"98-1",
+"99-1",
+"100-1",
+"101-1",
+"102-1",
+"103-1",
+"104-1",
+"105-1","105-2",
+"106-1",
+"107-1",
+"108-1",
+"109-1",
+"110-1",
+"111-1",
+"112-1",
+"113-1",
+"114-1",
+"115-1","115-2",
+"116-1",
+"117-1",
+"118-1",
+"119-1",
+"120-1","120-2",
+"121-1",
+"122-1",
+"123-1",
+"124-1",
+"125-1",
+"126-1",
+"127-1",
+"128-1",
+"129-1",
+"130-1",
+"131-1",
+"132-1",
+"133-1",
+"134-1",
+"135-1",
+"136-1",
+"137-1",
+"138-1",
+"139-1",
+"140-1",
+"141-1",
+"142-1",
+"143-1",
+"144-1","144-2",
+"145-1",
+"146-1","146-2",
+"147-1",
+"148-1",
+"149-1",
+"150-1",
+"151-1",
+"152-1",
+"153-1",
+"154-1",
+"155-1","155-2",
+"156-1","156-2",
+"157-1","157-2",
+"158-1",
+"159-1",
+"160-1",
+"161-1",
+"162-1",
+"163-1",
+"164-1",
+"165-1",
+"166-1",
+"167-1",
+"168-1",
+"169-1",
+"170-1",
+"171-1",
+"172-1",
+"173-1",
+"174-1",
+"175-1",
+"176-1","176-2",
+"177-1",
+"178-1",
+"179-1","179-2",
+"180-1",
+"181-1",
+"182-1","182-2",
+"183-1",
+"184-1",
+"185-1",
+"186-1",
+"187-1","187-2",
+"188-1",
+"189-1",
+"190-1",
+"191-1",
+"192-1","192-2",
+"193-1",
+"194-1",
+"195-1",
+"196-1",
+"197-1",
+"198-1",
+"199-1",
+"200-1",
+"201-1",
+"202-1",
+"203-1",
+"204-1",
+"205-1",
+"206-1",
+"207-1",
+"208-1",
+"209-1",
+"210-1",
+"211-1",
+"212-1",
+"213-1",
+"214-1",
+"215-1",
+"216-1",
+"217-1",
+"218-1",
+"219-1",
+"220-1",
+"221-1",
+"222-1",
+"223-1",  
+"224-1",
+"225-1",
+"226-1",  
+"227-1",
+"228-1",
+"229-1",  
+"230-1",
+"231-1",
+"232-1",
+"233-1",
+"234-1",
+"235-1"
+);
+       
+       
+      var savecheckbox;
+      var loadcontent;
+      var loadcheckbox;
+      var loadlist;
+      window.onload = firstscript();
+      
+       
+       
+      function firstscript(){
+         var i=0;
+         while( i<list.length ){
+            loadlist = JSON.parse(localStorage.getItem('save'+list[i]));
+            if(loadlist == "true"){
+               loadcheckbox = document.getElementById(list[i]);
+               loadcheckbox.checked = true;
+            }
+            i++;
+         }
+      }
+       
+       
+       
+      function Save() {
+          var i = 0;
+          while( i<list.length ){
+             savecheckbox = document.getElementById(list[i]);
+             if(savecheckbox.checked == true){
+                  localStorage.setItem('save'+list[i],JSON.stringify("true"));
+             }
+             else{
+                  localStorage.setItem('save'+list[i],JSON.stringify("false"));
+             }
+             i++;
+          }
+      }
+      
+       
+      function FavoriteCheck() {
+         loadcheckbox = document.getElementById("favorite");
+          console.log(loadcheckbox);
+         if(loadcheckbox.checked == true){
+            FavoriteOn();
+         }
+         else{
+            FavoriteOff();
+         }
+      } 
+    
+       
+      function FavoriteOn() {
+          var i = 0;
+          while( i<list.length ){
+             loadlist = JSON.parse(localStorage.getItem('save'+list[i]));
+             if(loadlist == "true"){
+                loadcontent = document.getElementById("c-"+list[i]);
+                loadcontent.classList.remove("c-active-none");
+             }
+             else{
+                loadcontent = document.getElementById("c-"+list[i]);
+                loadcontent.classList.add("c-active-none");
+             }
+             i++;
+          }
+      }
+       
+      function FavoriteOff() {
+          var i = 0;
+          while( i<list.length ){
+                loadcontent = document.getElementById("c-"+list[i]);
+                loadcontent.classList.remove("c-active-none");
+             i++;
+          }
+      }
+        
+       
+       
+      function OpenWindow(url) {
+         window.open(url,"blank","width=800,height=720,left=900,top=100");
+      } 
+       
+       
+       
+       
+   </script>
+    
+    
+
+    
+</body>
+    
+    
+    
+    
+    
+</html>

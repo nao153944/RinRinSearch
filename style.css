@@ -1,0 +1,117 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: wheat;
+}
+
+
+.snslink{
+   width: 80px;
+   height: 100%;
+   text-align: center;
+   position: fixed;
+   left: 500px;
+   top: 70%;
+}
+
+.fa-stack{
+    margin-top: 5px;
+}
+
+.circle-twitter{
+    color: #1DA1F2;
+}
+
+.fa-youtube{
+    color: #DA1725;
+}
+
+.circle-youtube{
+    color: #FFFFFF;
+}
+
+.circle-up{
+    color: blueviolet;
+}
+
+
+
+.favorite{
+   width: 480px;
+   height: 60px;
+   text-align: center;
+   background-color: greenyellow;
+}
+
+
+.favorite-checkbox{
+   width: 25px;
+   height: 25px;
+   margin-top: 15px;
+   position: relative;
+   top: 3px;
+}
+
+
+.c-text-favorite{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+}
+
+
+.content{
+    width: 480px;
+    height: auto;
+    background-color: orange;
+    text-align: center;
+}
+
+
+.checkbox{
+   width: 20px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   vertical-align: middle;
+}
+
+
+.c-button{
+   width: 400px;
+   height: 60px;
+   margin: 5px;
+   background-color: white;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+
+.c-button:hover{
+   background-color: beige;
+}
+
+
+c-text-title{
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+}
+
+
+c-text-youtube{
+   font-size: 15px;
+   font-weight: bold;
+   color: black;
+}
+
+
+.c-active-none{
+    display: none;
+}
+
+
+
+
+
