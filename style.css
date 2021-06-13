@@ -29,7 +29,9 @@ body{
 .circle-youtube{
     color: #FFFFFF;
 }
-
+.circle-trash{
+    color: mediumblue;
+}
 .circle-up{
     color: blueviolet;
 }
