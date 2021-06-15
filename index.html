@@ -4,7 +4,7 @@
     
 <head>
   <meta charset="UTF-8">
-  <title>りんりんサーチ</title>
+  <title>りんりんサーチ v3.3</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
@@ -518,6 +518,14 @@
               <c-text-youtube>【歌枠】ザ・ステラ10 ～Love Song特集～【鈴花ステラ/Vtuber】</c-text-youtube>
            </button>
         </div>         
+        
+        <div id="c-24-4">
+           <input type='checkbox' class="checkbox" id="24-4" onclick="Save()" >
+           <button class="c-button" type="button" onclick="OpenWindow('https://www.youtube.com/watch?v=Ab792FC1_-8')">
+              <c-text-title>カブトムシ</c-text-title><br>
+              <c-text-youtube>【歌枠切り出しMV】ステラカンタービレ「カブトムシ」【鈴花ステラ/Vtuber】</c-text-youtube>
+           </button>
+        </div>        
         
         <div id="c-25-1">
            <input type="checkbox" class="checkbox" id="25-1" onclick="Save()" >
@@ -2762,7 +2770,7 @@ var list = new Array(
 "21-1","21-2",
 "22-1",
 "23-1","23-2",
-"24-1","24-2","24-3",
+"24-1","24-2","24-3","24-4",
 "25-1","25-2",
 "26-1","26-2","26-3",
 "27-1",
@@ -2987,10 +2995,10 @@ var list = new Array(
 );
        
        
-      var savecheckbox;
       var loadcontent;
       var loadcheckbox;
       var loadlist;
+       
       window.onload = firstscript();
       
        
@@ -3012,8 +3020,8 @@ var list = new Array(
       function Save() {
           var i = 0;
           while( i<list.length ){
-             savecheckbox = document.getElementById(list[i]);
-             if(savecheckbox.checked == true){
+             loadcheckbox = document.getElementById(list[i]);
+             if(loadcheckbox.checked == true){
                   localStorage.setItem('save'+list[i],JSON.stringify("true"));
              }
              else{
@@ -3035,9 +3043,9 @@ var list = new Array(
           var i = 0;
           while( i<list.length ){
              localStorage.removeItem('save'+list[i]);
-             savecheckbox = document.getElementById(list[i]);
-             if(savecheckbox.checked == true){
-                  savecheckbox.checked = false;
+             loadcheckbox = document.getElementById(list[i]);
+             if(loadcheckbox.checked == true){
+                  loadcheckbox.checked = false;
              }
              i++;
           }
