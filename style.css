@@ -4,13 +4,6 @@ body{
     background-color: wheat;
 }
 
-.timeline{
-   width: 400px;
-   height: 900px;
-   position: fixed;
-   left: 600px;
-}
-
 .snslink{
    width: 80px;
    height: 100%;
