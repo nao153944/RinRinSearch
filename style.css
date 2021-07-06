@@ -5,7 +5,6 @@ body{
 }
 
 .timeline{
-   height: 900px;
    position: fixed;
    left: 600px;
 }
