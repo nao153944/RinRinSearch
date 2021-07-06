@@ -4,6 +4,10 @@ body{
     background-color: wheat;
 }
 
+.timeline{
+   position: fixed;
+   left: 600px;
+}
 
 .snslink{
    width: 80px;
