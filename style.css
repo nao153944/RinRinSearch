@@ -13,13 +13,6 @@ body{
    top: 70%;
 }
 
-#player{
-    text-align: center;
-    position: fixed;
-    left: 700px;
-    top: 25%;
-}
-
 .fa-stack{
     margin-top: 5px;
 }

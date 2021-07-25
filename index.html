@@ -10,71 +10,18 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-VJMGFD7HPP');
-</script>     
-    
+</script> 
     
   <meta charset="UTF-8">
-  <title>りんりんサーチ v5.0</title>
+  <title>りんりんサーチ v4.9</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">     
-    
-    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"> 
 </head>
 
 
     
     
 <body>
-    
-    
-    <div id ="player"></div>
- 
-    <script>
-      var tag = document.createElement('script');
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      
-      var videoList = ['tjryHpCfZEQ','kuNCKFbMQ84','sfIha3fcEes','sdIiWtNtt_Y','JhgMOvDIZwE','aBDiu-luOZg','nOmNCgXfuK4','ppiKVPUBUJ4','2qkpeSfn9aI','_Gc_Nd0YRWc','QdBWXDvUYow','8ynr5zuUcJ0','K3pG2FaYOqM','wGzPvglElrw','yLnWu9LNDxg','RMWISckQv64'];
-      var videoIndex = 0;
-      
- 
-      function onYouTubeIframeAPIReady() {
-        new YT.Player('player', {
-          width: '720',
-          height: '405',
-          videoId: videoList[videoIndex],
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-      
-      function onPlayerReady(event) {
- 
-      }
-        
-      function onPlayerStateChange(event) {
-         if (event.data == 0) {
-            videoIndex++;
-            videoIndex = videoIndex % videoList.length;
-            event.target.loadVideoById(videoList[videoIndex]);
-         }
-      }
-        
-      function stopVideo() {
-         player.stopVideo();
-      }
-    
-        
-        
-        
-    </script>
-    
-    
-    
-    
     
     <div class="snslink">
         
@@ -99,8 +46,6 @@
         </span>
         
     </div>
-    
-    
     
     
     <div class ="favorite">
@@ -4935,15 +4880,12 @@ var list = new Array(
 "340-1"
 );
        
-
-
        
+      var loadcontent;
+      var loadcheckbox;
+      var loadlist;
        
-       var loadcontent;
-       var loadcheckbox;
-       var loadlist;
-       
-       window.onload = firstscript();
+      window.onload = firstscript();
       
        
        
@@ -4998,6 +4940,7 @@ var list = new Array(
        
       function FavoriteCheck() {
          loadcheckbox = document.getElementById("favorite");
+          console.log(loadcheckbox);
          if(loadcheckbox.checked == true){
             FavoriteOn();
          }
@@ -5037,7 +4980,7 @@ var list = new Array(
       function OpenWindow(url) {
          window.open(url,"blank","width=800,height=720,left=900,top=100");
       } 
-      
+       
        
        
        
