@@ -100,13 +100,29 @@ c-text-title{
    color: black;
 }
 
-
 c-text-youtube{
    font-size: 15px;
    font-weight: bold;
    color: black;
 }
 
+c-text-title-m{
+   font-size: 15px;
+   font-weight: bold;
+   color: black;
+}
+
+c-text-title-m-list{
+   font-size: 10px;
+   font-weight: bold;
+   color: black;
+}
+
+c-text-youtube-m{
+   font-size: 10px;
+   font-weight: bold;
+   color: black;
+}
 
 .c-active-none{
     display: none;
