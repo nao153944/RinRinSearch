@@ -10,7 +10,7 @@ body{
    text-align: center;
    position: fixed;
    left: 520px;
-   top: 70%;
+   top: 60%;
 }
 
 .fa-stack{
@@ -28,9 +28,15 @@ body{
 .circle-youtube{
     color: #FFFFFF;
 }
+
+.circle-madomado{
+    color: hotpink;
+}
+
 .circle-trash{
     color: mediumblue;
 }
+
 .circle-up{
     color: blueviolet;
 }
