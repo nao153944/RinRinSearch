@@ -79,7 +79,7 @@ footer {
 
 .select{
    width: 480px;
-   height: 55px;
+   height: 60px;
    text-align: center;
    background-color: greenyellow;
 }
@@ -87,7 +87,7 @@ footer {
 .select1{
    width: 90px;
    height: 45px;
-   margin: 5px;
+   text-align: center;
    background-color: white;
 }
 
@@ -98,6 +98,7 @@ footer {
    font-size: 20px;
    font-weight: bold;
    color: white;
+   text-align: center;
    background-color: cornflowerblue;
 }
 
