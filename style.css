@@ -86,16 +86,16 @@ footer {
 
 .select1{
    width: 90px;
-   height: 45px;
+   height: 50px;
+   margin: 5px;
    text-align: center;
    background-color: white;
 }
 
 .s-button{
    width: 90px;
-   height: 45px;
+   height: 50px;
    margin: 5px;
-   font-size: 20px;
    font-weight: bold;
    color: white;
    text-align: center;
