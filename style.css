@@ -114,6 +114,23 @@ footer {
 }
 
 
+.radio{
+   width: 480px;
+   height: 60px;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: springgreen;
+}
+
+.r-button{
+   width: 60px;
+   height: 30px;
+   top: 8px;
+   position: relative;
+   margin-top: 8px;
+}
+
+
 .content{
     width: 480px;
     height: auto;
