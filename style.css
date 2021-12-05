@@ -6,14 +6,6 @@ body{
    zoom: 67%;
 }
 }
-@media screen and (max-width: 767px) {
-body{
-   width: auto;
-   height: auto;
-   background-color: wheat;
-   zoom: 125%;
-}
-}
 
 
 .snslink{
