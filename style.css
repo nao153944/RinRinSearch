@@ -1,11 +1,7 @@
-@media screen and (min-width: 767px) {
-body{
-   zoom: 67%;
-}
-}
 body{
    width: auto;
    height: auto;
+   zoom: 67%;
    background-color: wheat;
 }
 
