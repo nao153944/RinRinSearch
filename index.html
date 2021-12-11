@@ -23576,7 +23576,6 @@ var rh = new Array(
       var loadcontent;
       var loadcheckbox;
       var loadlist;
-      var select1check;
        
       window.onload = firstscript();
       
@@ -23671,9 +23670,10 @@ var rh = new Array(
         
      
       function SelectCheck() {
-         select1check = document.getElementById("select1");
-         select2check = document.getElementById("select2");
-         select3check = document.getElementById("select3");
+         var select1check = document.getElementById("select1");
+         var select2check = document.getElementById("select2");
+         var select3check = document.getElementById("select3");
+          
          var i = 0;
          while( i<list.length ){
             loadcontent = document.getElementById("c-"+list[i]);
