@@ -650,7 +650,7 @@
     <div class ="radio">
        <input class="r-button" type="radio" name="q1" value="デフォルト" onclick="RadioCheck()" checked>デフォルト
        <input class="r-button" type="radio" name="q1" value="曲名順" onclick="RadioCheck()">曲名順
-       <input class="r-button" type="radio" name="q1" value="日付順" onclick="RadioCheck()">日付順
+       <input class="r-button" type="radio" name="q1" value="配信順" onclick="RadioCheck()">配信順
     </div>
 
 
@@ -24592,7 +24592,7 @@ var rh = new Array(
                 i++;
              }
          }
-         else if(radiocheck == "日付順"){
+         else if(radiocheck == "配信順"){
              var i=0;
              while(i<rh.length){
                 var elementload = document.getElementById("c-"+ rh[i]);
