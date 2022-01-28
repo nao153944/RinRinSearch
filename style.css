@@ -9,6 +9,12 @@ body{
 }
 }
 
+
+.twitter-tweet {
+　　width: 200px;　/* 全体サイズの調整 */
+}
+
+
 body{
    width: auto;
    height: auto;
