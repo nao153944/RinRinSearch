@@ -62,6 +62,29 @@ body{
 
 
 
+
+.selecttweet{
+   width: 480px;
+   height: 60px;
+   text-align: center;
+   background-color: lime;
+}
+.select4{
+   width: 25px;
+   height: 25px;
+   margin-top: 15px;
+   position: relative;
+   top: 3px;
+}
+.c-text-selecttweet{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+}
+
+
+
+
 .favorite{
    width: 480px;
    height: 60px;
