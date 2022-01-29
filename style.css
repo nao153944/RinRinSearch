@@ -10,9 +10,11 @@ body{
 }
 
 
+
 .twitter-tweet {
-　　width: 200px;　/* 全体サイズの調整 */
+   zoom:150% !important;
 }
+
 
 
 body{
