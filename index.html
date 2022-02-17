@@ -74,6 +74,10 @@
     </div>
     
 
+    <div class="form">
+      <input class="select4" id="select4" placeholder="キーワードを入力" onchange="SelectCheck()">
+    </div>
+    
     
     <div class ="select">
        <select id="select1" class="select1" onchange="SelectCheck()">
@@ -31758,16 +31762,20 @@ var rh = new Array(
       }
         
      
+
+       
       function SelectCheck() {
          var select1check = document.getElementById("select1");
          var select2check = document.getElementById("select2");
          var select3check = document.getElementById("select3");
+         var select4check = document.getElementById("select4");
          var i = 0;
          while( i<list.length ){
             loadcontent = document.getElementById("c-"+list[i]);
             loadcontent.classList.remove("c-select-none");
             loadcontent.classList.remove("c-select2-none");
             loadcontent.classList.remove("c-select3-none");
+            loadcontent.classList.remove("c-select4-none");
             i++;
          }  
          if(select1check.value != "none"){
@@ -31801,7 +31809,19 @@ var rh = new Array(
                i++;
             }
          }
-          
+         if(select4check.value != "" || select4check.value != null){
+            var i = 0;
+            while( i<list.length ){
+               loadcontent = document.getElementById("al-c-"+list[i]);
+               if(loadcontent.textContent.indexOf(select4check.value) == -1){
+                  loadcontent = document.getElementById("c-"+list[i]);
+                  loadcontent.classList.add("c-select4-none");       
+               }
+               i++
+            }
+         }
+           
+             
       }
        
        
