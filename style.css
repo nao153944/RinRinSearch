@@ -98,11 +98,13 @@ body{
 .select4{
    width: 420px;
    height: 35px;
-   font-size: 20px;
    text-align: center;
    margin-top: 7px;
 }
-
+input[type=form]{
+  font-size: 20px;
+  transform: scale(1.0);
+}
 
 
 .select{
