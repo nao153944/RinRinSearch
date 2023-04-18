@@ -61,9 +61,21 @@ body{
 }
 
 
+.kaisuu{
+   width: 480px;
+   height: 40px;
+   text-align: left;
+   background-color: aliceblue;
+}
 
-
-
+kaisuu-text{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+   position: relative;
+   top: 5px;
+   left: 100px;
+}
 
 .favorite{
    width: 480px;
@@ -88,18 +100,24 @@ body{
    color: black;
 }
 
+.c-text-select{
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+}
+
 
 .form{
    width: 480px;
    height: 60px;
    text-align: center;
-   background-color: palegreen;
+   background-color: springgreen;
 }
 .select4{
    width: 420px;
-   height: 40px;
+   height: 35px;
    text-align: center;
-   margin-top: 10px;
+   margin-top: 12px;
 }
 input[type=search]{
   font-size: 27px;
@@ -107,23 +125,16 @@ input[type=search]{
 }
 
 
+
+
 .select{
    width: 480px;
    height: 60px;
    text-align: center;
-   background-color: greenyellow;
+   background-color: lawngreen;
 }
 
 .select1{
-   width: 90px;
-   height: 50px;
-   margin: 5px;
-   font-size: 20px;
-   text-align: center;
-   background-color: white;
-}
-
-.select2{
    width: 150px;
    height: 50px;
    margin: 5px;
@@ -139,7 +150,6 @@ input[type=search]{
    background-color: white;
 }
 
-
 .radio{
    width: 480px;
    height: 60px;
@@ -147,12 +157,17 @@ input[type=search]{
    font-weight: bold;
    background-color: springgreen;
 }
-
+.r-text{
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+   margin-left: 0px;
+}
 .r-button{
-   width: 60px;
+   width: 40px;
    height: 30px;
    top: 8px;
-   left: 12px;
+   left: 10px;
    position: relative;
    margin-top: 10px;
 }
@@ -173,7 +188,6 @@ input[type=search]{
    top: 10px;
    vertical-align: middle;
 }
-
 
 
 .c-button{
@@ -204,10 +218,28 @@ c-text-youtube{
    color: black;
 }
 
+c-text-title-m{
+   font-size: 14px;
+   font-weight: bold;
+   color: black;
+}
+
+c-text-title-m-list{
+   font-size: 11px;
+   font-weight: bold;
+   color: black;
+}
+
+c-text-youtube-m{
+   font-size: 11px;
+   font-weight: bold;
+   color: black;
+}
 
 .c-active-none{
     display: none;
 }
+
 
 .c-select-none{
     display: none;
